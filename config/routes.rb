@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   resources :listings, only: [:new, :create, :index]
 
 
+
   constraints Monban::Constraints::SignedIn.new do
     root "dashboards#show", as: :dashboard
   end

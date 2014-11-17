@@ -17,8 +17,8 @@ ActiveRecord::Schema.define(version: 20141117203615) do
   enable_extension "plpgsql"
 
   create_table "listings", force: true do |t|
-    t.string   "name",       null: false
-    t.string   "desription", null: false
+    t.string   "name",        null: false
+    t.string   "description", null: false
     t.integer  "user_id"
     t.string   "image_url"
     t.datetime "created_at"
