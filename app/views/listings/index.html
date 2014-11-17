@@ -1,6 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Hey
 sup
 =======
 <b>Hey</b>
 >>>>>>> add monban-generators and config routes
+=======
+<b>Listings</b>
+
+
+<body>
+<%@listings.each do |rental|%>
+  <%=link_to rental.name, listing_path(rental)%>
+<%end%>
+
+
+</body>
+>>>>>>> config routes, create listings controller, create listings index, create dashboards show page
