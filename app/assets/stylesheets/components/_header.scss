@@ -1,0 +1,53 @@
+
+.nav .login {
+  float:right;
+  text-transform: uppercase;
+  width:100%;
+  text-align: right;
+  margin-top:-5%;
+
+}
+
+.login a:link, a:active, a:visited{
+  color:#2ECC71;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.login a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.site-title img {
+  width:55px;
+  margin-left:3%;
+}
+
+.site-title {
+  width:70%;
+}
+
+.site-title a:link, a:visited, {
+  color:#3FC380;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size:64px;
+  text-transform: uppercase;
+}
+
+.login2 {
+  width:15%;
+  float:right;
+}
+.login3 {
+  width: 15%;
+  float:right;
+}
+
+#new_user{
+  font-family: "Lato", sans-serif;
+  float: right;
+}
