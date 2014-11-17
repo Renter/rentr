@@ -3,7 +3,7 @@ class CreateListings < ActiveRecord::Migration
     create_table :listings do |t|
 
       t.string :name, null: false
-      t.string :desription, null: false
+      t.string :description, null: false
       t.references :user
       t.string :image_url
       t.timestamps
