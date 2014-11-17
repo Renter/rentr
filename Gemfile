@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'monban'
+gem 'monban-generators'
 
 gem 'rails', '4.1.6'
 gem 'pg'
