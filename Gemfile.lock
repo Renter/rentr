@@ -58,10 +58,15 @@ GEM
       rails
       warden
 <<<<<<< HEAD
+<<<<<<< HEAD
     monban-generators (0.0.4)
       monban (>= 0.0.12)
 =======
 >>>>>>> adds monban, runs monban generators
+=======
+    monban-generators (0.0.4)
+      monban (>= 0.0.12)
+>>>>>>> add monban-generators and config routes
     multi_json (1.10.1)
     pg (0.17.1)
     rack (1.5.2)
@@ -127,9 +132,13 @@ DEPENDENCIES
   jquery-rails
   monban
 <<<<<<< HEAD
+<<<<<<< HEAD
   monban-generators
 =======
 >>>>>>> adds monban, runs monban generators
+=======
+  monban-generators
+>>>>>>> add monban-generators and config routes
   pg
   rails (= 4.1.6)
   sass-rails (~> 4.0.3)
