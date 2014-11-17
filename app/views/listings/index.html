@@ -1,1 +1,10 @@
-<b>Hey</b>
+<b>Listings</b>
+
+
+<body>
+<%@listings.each do |rental|%>
+  <%=link_to rental.name, listing_path(rental)%>
+<%end%>
+
+
+</body>
