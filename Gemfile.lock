@@ -57,8 +57,11 @@ GEM
       bcrypt
       rails
       warden
+<<<<<<< HEAD
     monban-generators (0.0.4)
       monban (>= 0.0.12)
+=======
+>>>>>>> adds monban, runs monban generators
     multi_json (1.10.1)
     pg (0.17.1)
     rack (1.5.2)
@@ -123,7 +126,10 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   monban
+<<<<<<< HEAD
   monban-generators
+=======
+>>>>>>> adds monban, runs monban generators
   pg
   rails (= 4.1.6)
   sass-rails (~> 4.0.3)
