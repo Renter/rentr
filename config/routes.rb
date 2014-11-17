@@ -6,10 +6,10 @@ Rails.application.routes.draw do
   resources :users, only: [:new, :create]
 
   constraints Monban::Constraints::SignedIn.new do
-    root "dashboards#show", as: :dashboard
+    root "dashboards#directory", as: :dashboard
   end
 
   constraints Monban::Constraints::SignedOut.new do
-    root "landings#show"
+    root "dashboards#directory"
   end
 end
