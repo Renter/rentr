@@ -6,7 +6,7 @@
 
 <p> Locations: </p>
 <ul>
-  <%@presenter.locations.each do |l|%>
+  <%@dashboard.list_all.each do |l|%>
     <li>
       <%=l.name%>, <%=l.state%>
     </li>
@@ -19,7 +19,7 @@
  
   <p> Add a new city: </p>
   <div>
-    <%=form_for @presenter.new_location do |f|%>
+    <%=form_for Location.new do |f|%>
     
     <div>
       <%=f.text_field :name, placeholder: "name"%>
