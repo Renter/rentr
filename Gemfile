@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gem 'monban'
 gem 'monban-generators'
 gem 'high_voltage'
+
 gem 'rails', '4.1.6'
 gem 'pg'
 gem 'sass-rails', '~> 4.0.3'
