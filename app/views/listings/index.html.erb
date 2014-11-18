@@ -1,5 +1,13 @@
 <b>Listings</b>
-  <%@listings.each do |rental|%>
+<%=form_for @listing do |f|%>
+<%=f.text_field :description%>
+<%=f.text_field :name%>
+<%=f.text_field :image_url%>
+<%=f.text_field :location%>
+<%end%>
+
+
+<%@listings.each do |rental|%>
     <div>
       <div>
         <%=link_to listing_path(rental) do
