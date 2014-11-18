@@ -9,8 +9,13 @@ class ListingsController < ApplicationController
   end
 
   def create
-    @listing=Listing.create(listing_params)
-    redirect_to :back
+    @listing=Listing.new(listing_params)
+    
+    if @listing.save
+      redirect_to @listing
+    else
+      redirect_to :back
+    end
   end
 
   def show
@@ -26,7 +31,7 @@ class ListingsController < ApplicationController
   private
 
   def listing_params
-    params.require(:listing).permit(:name, :description, :image_url)
+    params.require(:listing).permit(:name, :description, :image_url, :id, :user_id)
 
   end
 end
