@@ -5,6 +5,7 @@ class ListingsController < ApplicationController
   end
 
   def create
+  puts "ASDADASDASDASDSAD"
   @listing= Listing.new (listing_params)
   @listing.save
   redirect_to :back
