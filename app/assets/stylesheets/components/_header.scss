@@ -1,0 +1,99 @@
+
+.nav .login {
+  float:right;
+  text-transform: uppercase;
+  width:100%;
+  text-align: right;
+  margin-top:-5%;
+
+}
+
+.login a:link, a:active, a:visited{
+  color:#2ECC71;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.login a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.site-title img {
+  width:55px;
+  margin-left:3%;
+}
+
+.site-title {
+  width:70%;
+}
+
+.site-title a:link, a:visited, {
+  color:#3FC380;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size:64px;
+  text-transform: uppercase;
+}
+
+.login2 {
+  width:15%;
+  float:right;
+}
+.login3 {
+  width: 15%;
+  float:right;
+}
+
+form {
+  font-family: "Lato", sans-serif;
+  width:275px;
+  text-transform: uppercase;
+  font-size: 12px;
+  float: right;
+  margin-top:-100px;
+  padding-right:5%;
+}
+
+form input {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  padding:3%;
+  text-transform: uppercase;
+  font-size:12px;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form input:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+form .email {
+  float:left;
+}
+
+form .password {
+  float:left;
+  margin-left:10px;
+}
+
+form .button {
+  float: right;
+}
+
+#user_email, #user_password, #session_email, #session_password{
+  background-color: white;
+  border: 1px solid black;
+  text-transform: none;
+  color:black;
+  font-size:10px;
+}
+

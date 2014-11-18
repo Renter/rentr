@@ -9,11 +9,19 @@ Rails.application.routes.draw do
 
 
   constraints Monban::Constraints::SignedIn.new do
+<<<<<<< HEAD
     root "dashboards#show", as: :dashboard
   end
 
   constraints Monban::Constraints::SignedOut.new do
     root "landings#show"
+=======
+    root "dashboards#directory", as: :dashboard
+  end
+
+  constraints Monban::Constraints::SignedOut.new do
+    root "dashboards#directory"
+>>>>>>> c9e7cbf676601e0ecb572f78b175a78adaa849cc
   end
 end
 
