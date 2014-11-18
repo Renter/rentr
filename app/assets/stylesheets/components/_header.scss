@@ -49,51 +49,20 @@
 
 form {
   font-family: "Lato", sans-serif;
-  width:25%;
+  width:275px;
   text-transform: uppercase;
   font-size: 12px;
-  margin: 0 auto;
-  margin-top:10%;
-  padding:7%;
-  border: 2px solid black;
-  background-color: #F2F1EF;
-}
-
-#user_email, #user_password, #session_email, #session_password{
-  width:55%;
-  padding:1%;
-  background-color: white;
-  border: 1px solid black;
-  text-transform: none;
-  color:black;
-  font-size:10px;
-}
-
-#user_email, {
-  margin-left:56px;
-  margin-bottom:10%;
-}
-
-#session_email {
-  margin-left:56px;
-  margin-bottom:10%;
-}
-
-#user_password, #session_password{
-  margin-left:25px;
-  margin-bottom: 25%;
+  float: right;
+  margin-top:-100px;
+  padding-right:5%;
 }
 
 form input {
   background-color: #3FC380;
-  border: 2px solid black;
-  padding-top:4%;
-  padding-bottom:4%;
+  border: 2px solid #3FC380;
+  padding:3%;
   text-transform: uppercase;
-  width:50%;
-  font-size:20px;
-  font-weight: bold;
-  margin-left:28%;
+  font-size:12px;
 }
 
 form input:focus {
@@ -104,5 +73,26 @@ form input:hover {
   background-color: black;
   color: white;
   border: 2px solid black;
+}
+
+form .email {
+  float:left;
+}
+
+form .password {
+  float:left;
+  margin-left:10px;
+}
+
+form .button {
+  float: right;
+}
+
+#user_email, #user_password, #session_email, #session_password{
+  background-color: white;
+  border: 1px solid black;
+  text-transform: none;
+  color:black;
+  font-size:10px;
 }
 
