@@ -4,6 +4,6 @@
 
 <div class= "location-listings">
   <%@location.listings.each do |listing|%>
-  <%=link_to listing%>
+  <%=link_to listing.name, listing%>
   <%end%>
 </div>
