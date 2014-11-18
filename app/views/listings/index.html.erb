@@ -1,6 +1,13 @@
 <b>Listings</b>
-<body>
   <%@listings.each do |rental|%>
-    <%=link_to rental.name, listing_path(rental)%>
+    <div>
+      <div>
+        <%=link_to listing_path(rental) do
+        image_tag(rental.image_url)
+        end %>
+      </div>
+      <div>
+        <%=link_to rental.name, listing_path(rental)%> 
+      </div>
+    </div>
   <%end%>
-</body>

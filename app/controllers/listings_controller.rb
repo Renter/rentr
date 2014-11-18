@@ -32,6 +32,5 @@ class ListingsController < ApplicationController
 
   def listing_params
     params.require(:listing).permit(:name, :description, :image_url, :id, :user_id)
-
   end
 end
