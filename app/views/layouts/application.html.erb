@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>RENTR</title>
-  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-
-</head>
-
-<body>
-  <div class="container">
-    <header>
-      <div class="nav">
-        <h1 class="site-title">
-          <%= link_to "rentr", root_path %>
-        <%= link_to root_path do image_tag "home2.svg" end %>
-      </h1>
-
-      <div class="login">
-        <% if signed_in? %>
-        <%= link_to "Sign out", session_path, method: :delete %>
-      <% else %>
-      <div class="login2">
-        <%= link_to "Sign in", new_session_path %>
+   <head>
+      <meta charset="utf-8">
+      <title>RENTR</title>
+      <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= csrf_meta_tags %>
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <div class="nav">
+               <h1 class="site-title">
+                  <%= link_to "rentr", root_path %>
+                  <%= link_to root_path do image_tag "home2.svg" end %>
+               </h1>
+               <div class="login">
+                  <% if signed_in? %>
+                  <%= link_to "Sign out", session_path, method: :delete %>
+                  <% else %>
+                  <div class="login2">
+                     <%= link_to "Sign in", new_session_path %>
+                  </div>
+                  <div class="login3">
+                     <%= link_to "Sign up", new_user_path %>
+                  </div>
+               </div>
+               <% end %>
+            </div>
       </div>
-      <div class="login3">
-        <%= link_to "Sign up", new_user_path %>
+      </header>
+      <main>
+         <%= yield %>
+      </main>
       </div>
-      </div>
-      <% end %>
-      </div>
-    </div>
-    </header>
-    <main>
-<%= yield %>
-        </main>
-    </div>
-  </body>
+   </body>
 </html>

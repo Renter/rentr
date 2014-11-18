@@ -60,7 +60,7 @@ form {
 }
 
 #user_email, #user_password, #session_email, #session_password{
-  width:65%;
+  width:55%;
   padding:1%;
   background-color: white;
   border: 1px solid black;
@@ -69,13 +69,18 @@ form {
   font-size:10px;
 }
 
-#user_email, #session_email {
-  margin-left:16.85%;
+#user_email, {
+  margin-left:56px;
+  margin-bottom:10%;
+}
+
+#session_email {
+  margin-left:56px;
   margin-bottom:10%;
 }
 
 #user_password, #session_password{
-  margin-left:5%;
+  margin-left:25px;
   margin-bottom: 25%;
 }
 
@@ -85,9 +90,10 @@ form input {
   padding-top:4%;
   padding-bottom:4%;
   text-transform: uppercase;
-  width:100%;
+  width:50%;
   font-size:20px;
   font-weight: bold;
+  margin-left:28%;
 }
 
 form input:focus {
