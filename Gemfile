@@ -7,18 +7,11 @@ gem 'pg'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
-<<<<<<< HEAD
-=======
 
->>>>>>> c9e7cbf676601e0ecb572f78b175a78adaa849cc
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
-<<<<<<< HEAD
-=======
 
->>>>>>> c9e7cbf676601e0ecb572f78b175a78adaa849cc
-gem 'spring',        group: :development
 
 
