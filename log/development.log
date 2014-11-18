@@ -19630,4 +19630,1420 @@ Started GET "/" for 127.0.0.1 at 2014-11-17 23:48:45 -0500
 Processing by DashboardsController#directory as HTML
   Rendered dashboards/directory.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
 >>>>>>> unified layout / login complete
+=======
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-17 23:51:45 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-17 23:51:48 -0500
+Processing by DashboardsController#directory as HTML
+  Rendered dashboards/directory.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2014-11-17 23:51:50 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-17 23:52:29 -0500
+Processing by DashboardsController#directory as HTML
+  Rendered dashboards/directory.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2014-11-17 23:52:30 -0500
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 08:59:00 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 86ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 08:59:03 -0500
+Processing by DashboardsController#directory as HTML
+  Rendered dashboards/directory.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 95ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2014-11-18 08:59:06 -0500
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2014-11-18 09:00:23 -0500
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:00:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:00:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:00:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:00:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:00:23 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:00:24 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:01:06 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:01:43 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 152ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:01:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:01:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:01:43 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:01:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:01:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:01:43 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:01:55 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:01:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:01:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:01:55 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:01:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:01:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:01:55 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:02:01 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:02:01 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:02:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:01 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:02:35 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 89ms (Views: 88.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:02:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:35 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:02:35 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:02:40 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 118ms (Views: 117.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:02:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:40 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:02:40 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:02:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 77ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:02:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:53 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:02:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:02:53 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:03:52 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 93ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:03:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:03:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:03:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:03:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:03:52 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:03:52 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:04:43 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 138ms (Views: 137.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:04:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:04:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:04:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:04:43 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:04:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:04:43 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:05:31 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 85ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:05:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:31 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:05:31 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:05:38 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:05:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:38 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:05:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:38 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:05:43 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:05:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:43 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:05:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:05:43 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:06:05 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 184ms (Views: 183.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:06:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:06:05 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:06:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:06:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:06:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:06:05 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:07:06 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:07:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:06 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:07:06 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:07:12 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 161ms (Views: 160.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:07:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:12 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:07:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:12 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:07:17 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 97ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:17 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:07:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:07:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:17 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:07:22 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:07:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:22 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:07:22 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:07:27 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:07:27 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:07:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:27 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:07:33 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 227ms (Views: 226.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:07:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:34 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:07:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:34 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:07:39 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:07:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:39 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:07:39 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:07:44 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 96ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:07:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:07:44 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:07:55 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 93ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:07:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:56 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:07:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:07:56 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:08:17 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:08:17 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:08:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:17 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:08:22 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 82ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:08:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:22 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:08:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:22 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:08:26 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 93ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:08:26 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:08:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:26 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:08:42 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:08:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:42 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:08:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:42 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:08:47 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 76ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:08:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:47 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:08:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:08:47 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:09:02 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 91ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:09:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:02 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:09:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:02 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:09:07 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:09:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:08 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:09:08 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:09:13 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 82ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:09:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:13 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:09:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:13 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:09:20 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:09:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:20 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:09:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:20 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:09:24 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:09:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:24 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:09:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:24 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:09:28 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:09:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:28 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:09:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:28 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:09:33 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 96ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:33 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:09:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:09:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:33 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:09:38 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 101ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:38 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:09:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:38 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:09:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:38 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:09:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 184ms (Views: 183.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:09:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:53 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:09:53 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:09:58 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:09:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:09:58 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:09:58 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:10:02 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:10:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:02 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:10:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:02 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:10:13 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 89ms (Views: 88.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:10:14 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:10:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:14 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:10:30 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 94ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:10:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:31 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:10:31 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:10:57 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:10:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:57 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:10:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:10:57 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:11:02 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 83ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:11:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:03 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:11:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:03 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:11:13 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 247ms (Views: 246.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:11:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:13 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:11:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:13 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:11:18 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 213ms (Views: 212.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:11:18 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:11:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:18 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:11:31 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 237ms (Views: 236.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:11:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:31 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:11:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:31 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:11:35 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:11:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:35 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:11:35 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:11:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:53 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:11:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:11:53 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:11:58 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 79ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:11:58 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:11:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:11:58 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 09:12:03 -0500
+Processing by DashboardsController#directory as HTML
+  Rendered dashboards/directory.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:12:05 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 28ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2014-11-18 09:12:07 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2014-11-18 09:12:24 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 78ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:12:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:12:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:12:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:12:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:12:24 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:12:24 -0500
+
+
+Started GET "/session/new" for 127.0.0.1 at 2014-11-18 09:13:58 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 150ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:13:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:13:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:13:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:13:58 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:13:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:13:58 -0500
+
+
+Started GET "/session/new" for 127.0.0.1 at 2014-11-18 09:14:08 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:14:09 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:14:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:09 -0500
+
+
+Started GET "/session/new" for 127.0.0.1 at 2014-11-18 09:14:14 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 241ms (Views: 240.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:14:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:14 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:14:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:14 -0500
+
+
+Started GET "/session/new" for 127.0.0.1 at 2014-11-18 09:14:20 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 93ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:14:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:14:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:20 -0500
+
+
+Started GET "/session/new" for 127.0.0.1 at 2014-11-18 09:14:29 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:14:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:29 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:14:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:29 -0500
+
+
+Started GET "/session/new" for 127.0.0.1 at 2014-11-18 09:14:42 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 80ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 09:14:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:42 -0500
+
+
+Started GET "/assets/home2.svg" for 127.0.0.1 at 2014-11-18 09:14:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 09:14:42 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:14:45 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2014-11-18 09:14:46 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 09:14:47 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+>>>>>>> form margin adjustments
