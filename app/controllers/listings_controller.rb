@@ -1,8 +1,9 @@
 class ListingsController < ApplicationController
   def index
   @listing = Listing.new
+  @listings= Listing.all
   end
-  
+
   def create
   @listing= Listing.new (listing_params)
   @listing.save
@@ -13,5 +14,5 @@ class ListingsController < ApplicationController
   def listing_params
     params.require(:listing).permit(:name, :description, :location, :image_url)
   end
-  
+
 end

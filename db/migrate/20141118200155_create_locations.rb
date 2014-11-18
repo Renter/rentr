@@ -1,6 +1,6 @@
 class CreateLocations < ActiveRecord::Migration
   def change
-    create_table :locations do |t|
+    create_table :listings do |t|
       t.string :location
       t.string :name
       t.string :description
