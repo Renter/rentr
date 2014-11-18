@@ -1,6 +1,7 @@
 <b>Listings</b>
 
 
+<div>
 <body>
 <%@listings.each do |rental|%>
   <%=link_to rental.name, listing_path(rental)%>
@@ -8,3 +9,4 @@
 
 
 </body>
+</div>
