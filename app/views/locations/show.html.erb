@@ -1,0 +1,9 @@
+<div class="location-name">
+ <p> <%=@location.name%> </p>
+</div>
+
+<div class= "location-listings">
+  <%@location.listings.each do |listing|%>
+  <%=link_to listing%>
+  <%end%>
+</div>
