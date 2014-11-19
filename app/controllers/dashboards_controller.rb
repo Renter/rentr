@@ -1,8 +1,5 @@
 class DashboardsController < ApplicationController
   def show
-  end
-
-  def directory
-
+    @dashboard = Dashboard.new
   end
 end
