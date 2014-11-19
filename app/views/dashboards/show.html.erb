@@ -7,6 +7,8 @@
       <%= text_field_tag(:query) %>
       <%= submit_tag("Search") %>
     <% end %>
+
+<h1> Dashboard </h1>
   </div>
 
 <div class = "adminoptions">
@@ -34,12 +36,23 @@
       <div>
         <%= f.text_field :name, placeholder: "name" %>
       </div>
+      
       <div>
         <%= f.text_field :state, placeholder: "state" %>
       </div>
+
+      <div>
+        <%= f.number_field :latitude, placeholder: "latitude"%>
+      </div>
+
+      <div>
+        <%= f.number_field :longitude, placeholder: "longitude"%>
+      </div>
+
       <div>
         <%= f.submit %>
       </div>
+
       <% end %>
     </div>
   
@@ -47,3 +60,4 @@
   
   <% end %>
 </div>
+
