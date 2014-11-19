@@ -1,1 +1,49 @@
-<h1> Dashboard </h1>
+<h1> Welcome </h1>
+  
+  <div class = "search-form">
+
+    <%= form_tag searches_path, method: "GET" do %>
+      <%= label_tag(:query) %>
+      <%= text_field_tag(:query) %>
+      <%= submit_tag("Search") %>
+    <% end %>
+  </div>
+
+<div class = "adminoptions">
+  
+  <% if current_user.is_admin %>
+    
+    <h1> Admin Options </h1>
+    
+    <p> Locations: </p>
+    
+    <ul>
+    <% @dashboard.list_all.each do |l| %>
+      <li>
+        <%= l.name%>, <%= l.state%>
+      </li>
+    <% end %>
+    </ul>
+    
+    <div class = "new-city-form">
+   
+    <p> Add a new city: </p>
+    
+    <div>
+       <%= form_for Location.new do |f| %>
+      <div>
+        <%= f.text_field :name, placeholder: "name" %>
+      </div>
+      <div>
+        <%= f.text_field :state, placeholder: "state" %>
+      </div>
+      <div>
+        <%= f.submit %>
+      </div>
+      <% end %>
+    </div>
+  
+    </div>
+  
+  <% end %>
+</div>
