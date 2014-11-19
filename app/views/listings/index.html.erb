@@ -1,6 +1,6 @@
 <b>Listings</b>
 <div>
-  <%@listings.each do |rental|%>
-    <%=link_to rental.name, listing_path(rental)%>
+  <% @listings.each do |rental| %>
+    <% =link_to rental.name, listing_path(rental) %>
   <%end%>
 </div>
