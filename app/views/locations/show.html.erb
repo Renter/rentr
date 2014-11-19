@@ -1,14 +1,20 @@
 <div class="location-name">
  
-  <p> <%=@location.name%> </p>
+  <p> <%=@location.name.upcase%> </p>
 
 </div>
 
 <div class= "location-listings">
 
-  <% @location.listings.each do |listing|%>
-    
+  <% @location.listings.each do |listing|%>   
     <%= link_to listing.name, listing%>
-
   <% end %>
+
 </div>
+
+<div>
+  
+  <%= link_to "map", map_path(@location.id)%>
+
+</div>
+
