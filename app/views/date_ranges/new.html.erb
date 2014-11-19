@@ -1,0 +1,7 @@
+<h1>Dates available</h1>
+
+<%= form_for [@listing, @date_range] do |f| %>
+  <% f.text_field :start_date %>
+  <% f.text_field :end_date %>
+  <%= f.submit %>
+<% end %>
