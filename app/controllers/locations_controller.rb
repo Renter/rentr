@@ -1,5 +1,4 @@
 class LocationsController < ApplicationController
-
   def create
     location = Location.new(location_params)
     location.name = location.name.downcase
