@@ -11,10 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141118233710) do
+ActiveRecord::Schema.define(version: 20141119011546) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "date_ranges", force: true do |t|
+    t.string   "start_date", null: false
+    t.string   "end_date",   null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "listing_id"
+  end
+
+  add_index "date_ranges", ["listing_id"], name: "index_date_ranges_on_listing_id", using: :btree
 
   create_table "listings", force: true do |t|
     t.string   "name",        null: false
