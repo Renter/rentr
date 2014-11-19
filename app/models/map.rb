@@ -4,9 +4,8 @@ class Map
 
   def initialize(location)
     @location = location
-  end 
-  
+  end
+
   delegate :latitude, to: :@location
   delegate :longitude, to: :@location
-
 end
