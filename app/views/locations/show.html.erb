@@ -1,4 +1,5 @@
 <div class="location-name">
+<<<<<<< HEAD
  
   <p> <%=@location.name%> </p>
 
@@ -12,3 +13,21 @@
 
   <% end %>
 </div>
+=======
+ <p> <%=@location.name%> </p>
+</div>
+
+
+<div class= "location-listings">
+  <%@location.listings.each do |listing|%>
+  <%=link_to listing.name, listing%>
+  <%end%>
+</div>
+
+
+
+<div>
+<a href= "/maps">map</a>
+</div>
+
+>>>>>>> adds google maps api and maps controller
