@@ -10,6 +10,10 @@
   </div>
 
   <div>
+    <%=f.select :location_id, @listing.location_names%>  
+  </div>
+
+  <div>
     <%= f.label :description %>
     <%= f.text_field :description %>
   </div>

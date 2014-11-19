@@ -9,6 +9,10 @@ class ListingsController < ApplicationController
 
   def create
     @listing = Listing.new(listing_params)
+    
+    if find_location(@listing.city)
+      @listing.location_id = find_location(@listing.city).id
+    end
     if @listing.save
       redirect_to @listing
     else
@@ -29,12 +33,19 @@ class ListingsController < ApplicationController
 
   private
 
+  def find_location(city_name)
+    Location.find_by(name: city_name.downcase) 
+  end
+  
   def listing_params
     params.require(:listing).permit(
       :description,
       :name,
       :user_id,
+<<<<<<< HEAD
       :main_image,
+=======
+>>>>>>> adds images that belong to listings, when users make listings it saves it to a city if the name matches
       :city,
       :street,
       :number
