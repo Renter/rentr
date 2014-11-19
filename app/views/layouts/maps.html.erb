@@ -10,7 +10,7 @@
     <script type="text/javascript">
       function initialize() {
         var mapOptions = {
-          center: { lat: <%=@map.lat%>,  lng: <%=@map.long%>},
+          center: { lat: <%=@map.latitude%>,  lng: <%=@map.longitude%>},
           zoom: 10
         };
         var map = new google.maps.Map(document.getElementById('map-canvas'),
