@@ -35,12 +35,23 @@
       <div>
         <%= f.text_field :name, placeholder: "name" %>
       </div>
+      
       <div>
         <%= f.text_field :state, placeholder: "state" %>
       </div>
+
+      <div>
+        <%= f.number_field :latitude, placeholder: "latitude"%>
+      </div>
+
+      <div>
+        <%= f.number_field :longitude, placeholder: "longitude"%>
+      </div>
+
       <div>
         <%= f.submit %>
       </div>
+
       <% end %>
     </div>
   
