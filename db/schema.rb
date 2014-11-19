@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141119011546) do
+ActiveRecord::Schema.define(version: 20141119224658) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,13 +27,15 @@ ActiveRecord::Schema.define(version: 20141119011546) do
   add_index "date_ranges", ["listing_id"], name: "index_date_ranges_on_listing_id", using: :btree
 
   create_table "listings", force: true do |t|
-    t.string   "name",        null: false
-    t.string   "description", null: false
+    t.string   "name"
+    t.string   "description"
     t.integer  "user_id"
-    t.string   "image_url"
+    t.integer  "location_id"
+    t.string   "city"
+    t.string   "street"
+    t.string   "number"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "location_id"
   end
 
   create_table "locations", force: true do |t|
