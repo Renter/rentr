@@ -1,10 +1,10 @@
 class LocationsController < ApplicationController
-  
+
   def create
     location = Location.new(location_params)
     location.name = location.name.downcase
     location.state = location.state.downcase
-    
+
     if location.save
       redirect_to root_path
     else
