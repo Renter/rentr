@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :locations, only: [:show, :create]
   resources :searches, only: [:index]
   resources :listings, only: [:show]
+  resources :searches, only: [:index]
   constraints Monban::Constraints::SignedIn.new do
     root "dashboards#show", as: :dashboard
   end
