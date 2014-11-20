@@ -9,7 +9,7 @@ class ListingsController < ApplicationController
 
   def create
     @listing = Listing.new(listing_params)
-
+    @listing.full_address=@listing.compile_address
     if @listing.save
       redirect_to @listing
     else
@@ -26,9 +26,12 @@ class ListingsController < ApplicationController
   def listing_params
     params.require(:listing).permit(
       :description,
-      :image_url,
       :name,
-      :user_id
+      :user_id,
+      :main_image,
+      :city,
+      :street,
+      :number
     )
   end
 end
