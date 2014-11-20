@@ -1,13 +1,12 @@
 .listings-form {
-  width:25%;
-  margin: 0 auto;
+  width:500px;
   margin-top:15%;
 }
 
 .listings-form input {
   text-transform: none;
   border:2px solid black;
-  width:100%;
+  width:100px;
   margin-top:5%;
 }
 
@@ -19,10 +18,79 @@
 
 .listings-list {
   float:left;
-  background-color: green;
   margin: 0 auto;
-  margin-top:10%;
-  width:80%;
-  margin-left:10%;
+  width:800px;
+  height: 150px;
+  margin:0 auto;
+  border: 2px solid black;
+  margin-top:2%;
+}
 
+.listings-list:nth-child(even) {
+  background-color: #EEEEEE;
+}
+
+.listings-list img {
+  width:150px;
+  height: 150px;
+  float:left;
+  object-fit:cover;
+}
+
+.listings-rental-name {
+  float:left;
+  width:600px;
+  margin-left:50px;
+  margin-top:10px;
+}
+
+.listings-rental-name a:link, a:visited, a:active {
+  color:#3FC380;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size:26px;
+  text-transform: uppercase;
+}
+
+.listings-rental-name a:hover {
+  color:black
+}
+
+.listings-rental-location {
+  float:right;
+  width:600px;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  margin-top:1%;
+}
+
+.listings-rental-description {
+  float:left;
+  width:600px;
+  margin-left:50px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-top:1%;
+
+}
+
+#listing_description {
+  height:300px;
+  width:500px;
+}
+
+#listing_location {
+  width:100px;
+  float:right;
+}
+
+.listings-button input{
+  background-color: #3FC380;
+  padding:2%
+}
+
+#listing_name {
+  float: left;
+  width:125px;
 }

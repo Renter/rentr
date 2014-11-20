@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html>
    <head>
@@ -17,10 +17,10 @@
           <%=form_for @listing do |f|%>
 
           <%=f.text_field :name, placeholder: "Rental Name"%>
-          <%=f.text_field :description, placeholder: "Rental Description"%>
           <%=f.text_field :location, placeholder: "Location"%>
+          <%=f.text_field :description, placeholder: "Rental Description"%>
           <%=f.text_field :image_url, placeholder: "Add Photos"%>
-          <%=f.submit%>
+          <div class="listings-button"><%=f.submit%></div>
           <%end%>
         </div>
 
@@ -32,22 +32,18 @@
               image_tag(rental.image_url)
               end %>
             </div>
-            <div>
+            <div class="listings-rental-name">
               <%=link_to rental.name, listing_path(rental)%>
             </div>
-            <div>
+            <div class="listings-rental-location">
               <%=rental.location%>
+            </div>
+            <div class="listings-rental-description">
+              <%=rental.description%>
             </div>
           </div>
         <%end%>
       </body>
     </div>
   </html>
-=======
-<b>Listings</b>
-<div>
-  <% @listings.each do |rental| %>
-    <% =link_to rental.name, listing_path(rental) %>
-  <%end%>
-</div>
->>>>>>> 6c47d972aaab25ef2ec5d6274a1fefb3729eabf4
+

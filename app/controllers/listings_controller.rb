@@ -1,6 +1,7 @@
 class ListingsController < ApplicationController
   def index
     @listings = Listing.all
+    @listing = Listing.new
   end
 
   def new
@@ -28,7 +29,8 @@ class ListingsController < ApplicationController
       :description,
       :image_url,
       :name,
-      :user_id
+      :user_id,
+      :location
     )
   end
 end
