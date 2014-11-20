@@ -8,6 +8,10 @@ class Listing < ActiveRecord::Base
     },
     default_url: "/images/:style/missing.png"
   
+  has_many :date_ranges   
+  geocoded_by :full_street_address
+  after_validation :geocode
+
   def location_names
     Location.all.map{|location| location.name}
   end
