@@ -17,6 +17,13 @@ class ListingsController < ApplicationController
     end
   end
 
+  def destroy
+    @listing = Listing.find(params[:id])
+    @listing.destroy
+    redirect_to "/listings"
+  end
+
+
   def show
     @listing = Listing.find(params[:id])
   end

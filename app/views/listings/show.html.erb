@@ -34,6 +34,9 @@
 
   <% if current_user == @listing.user %>
   <div>
+    <%= link_to "Delete", listing_path(@listing.id), method: "delete"%>  
+  </div>
+  <div>
     <%= link_to "Dates", new_listing_date_range_path(@listing) %>
   </div>
   <% end %>
