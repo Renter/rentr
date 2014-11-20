@@ -13,3 +13,5 @@ class Listing < ActiveRecord::Base
     "#{number}" + " " + "#{street}"+", " + "#{city}"
   end
 end
+
+
