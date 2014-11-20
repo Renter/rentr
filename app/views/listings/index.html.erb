@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
    <head>
@@ -42,3 +43,11 @@
       </body>
     </div>
   </html>
+=======
+<b>Listings</b>
+<div>
+  <% @listings.each do |rental| %>
+    <% =link_to rental.name, listing_path(rental) %>
+  <%end%>
+</div>
+>>>>>>> 6c47d972aaab25ef2ec5d6274a1fefb3729eabf4
