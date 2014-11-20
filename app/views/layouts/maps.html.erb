@@ -17,13 +17,24 @@
             mapOptions);
 
         var listings = Array.new;
-        <%@map.listings.each do |listing|%>
-          
-           new google.maps.Marker({
-           position: { lat: <%= listing.latitude %>,  lng: <%= listing.longitude %>},
-           map: map,
-           title: "<%= listing.name%>"
-          });
+        <% @map.listings.each do |listing|%>
+
+           var infowindow<%=listing.id%> = new google.maps.InfoWindow({
+             content: "<p> <a href='/listings/<%=listing.id%>'><%=listing.name%></a> </p>"      
+           });
+
+           var marker<%=listing.id%> = new google.maps.Marker({
+             position: { lat: <%= listing.latitude %>,  lng: <%= listing.longitude %>},
+             animation: google.maps.Animation.DROP,
+             map: map,
+             title: "<%= listing.name%>"
+           });
+     
+           google.maps.event.addListener(marker<%= listing.id %>, 'click', function() {
+             infowindow<%= listing.id %>.open(map,marker<%= listing.id%>);
+           });
+
+   
 
         <% end %>
        
