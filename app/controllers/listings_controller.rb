@@ -9,7 +9,8 @@ class ListingsController < ApplicationController
 
   def create
     @listing = Listing.new(listing_params)
-    @listing.full_street_address = "#{@listing.number} #{@listing.street}, #{@listing.city}"
+    address = "#{@listing.number} #{@listing.street}, #{@listing.city}"
+    @listing.full_street_address = address
 
     if find_location(@listing.city)
       @listing.location_id = find_location(@listing.city).id
@@ -35,9 +36,9 @@ class ListingsController < ApplicationController
   private
 
   def find_location(city_name)
-    Location.find_by(name: city_name.downcase) 
+    Location.find_by(name: city_name.downcase)
   end
-  
+
   def listing_params
     params.require(:listing).permit(
       :description,
