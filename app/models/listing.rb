@@ -13,6 +13,6 @@ class Listing < ActiveRecord::Base
   after_validation :geocode
 
   def location_names
-    Location.all.map{ |location| location.name }
+    Location.all.map { |location| location.name }
   end
 end
