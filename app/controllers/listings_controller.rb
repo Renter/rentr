@@ -9,7 +9,8 @@ class ListingsController < ApplicationController
 
   def create
     @listing = Listing.new(listing_params)
-    
+    @listing.full_street_address = "#{@listing.number} #{@listing.street}, #{@listing.city}"
+
     if find_location(@listing.city)
       @listing.location_id = find_location(@listing.city).id
     end

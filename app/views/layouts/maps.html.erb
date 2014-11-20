@@ -15,6 +15,18 @@
         };
         var map = new google.maps.Map(document.getElementById('map-canvas'),
             mapOptions);
+
+        var listings = Array.new;
+        <%@map.listings.each do |listing|%>
+          
+           new google.maps.Marker({
+           position: { lat: <%= listing.latitude %>,  lng: <%= listing.longitude %>},
+           map: map,
+           title: "<%= listing.name%>"
+          });
+
+        <% end %>
+       
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>

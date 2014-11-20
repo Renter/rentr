@@ -8,5 +8,6 @@ class Map
 
   delegate :latitude, to: :@location
   delegate :longitude, to: :@location
+  delegate :listings, to: :@location
 end
 
