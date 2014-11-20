@@ -33,11 +33,7 @@
            google.maps.event.addListener(marker<%= listing.id %>, 'click', function() {
              infowindow<%= listing.id %>.open(map,marker<%= listing.id%>);
            });
-
-   
-
-        <% end %>
-       
+        <% end %>       
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
