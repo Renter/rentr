@@ -43,10 +43,7 @@ class ListingsController < ApplicationController
       :description,
       :name,
       :user_id,
-<<<<<<< HEAD
       :main_image,
-=======
->>>>>>> adds images that belong to listings, when users make listings it saves it to a city if the name matches
       :city,
       :street,
       :number
