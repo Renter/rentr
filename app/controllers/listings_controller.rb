@@ -9,7 +9,6 @@ class ListingsController < ApplicationController
 
   def create
     @listing = Listing.new(listing_params)
-    @listing.full_address = @listing.compile_address
     if @listing.save
       redirect_to @listing
     else
