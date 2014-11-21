@@ -14,11 +14,30 @@ class Listing < ActiveRecord::Base
   geocoded_by :full_street_address
   after_validation :geocode
 
+
   def full_street_address
     "#{number} #{street}, #{city}"
   end
 
+  def assign_location_id 
+    puts "hi"
+    puts self.city.inspect
+    if find_location(self.city)
+      puts "true"
+      self.location_id = find_location(city).id
+    else 
+      puts "false"
+      self.location_id = 0
+    end
+  end
+
+  private
+
+  def find_location(city_name)
+    @location = Location.find_by(name: city_name.downcase)
+  end
+
   def location_names
-    Location.all.map { |location| location.name }
+    Location.names
   end
 end
