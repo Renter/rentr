@@ -1,6 +1,11 @@
 class ListingsController < ApplicationController
   def index
+<<<<<<< HEAD
     @listings = Listing.order(:created_at).reverse_order
+=======
+    @listings = Listing.all
+    @listing = Listing.new
+>>>>>>> 303b57dff4aa14862615d033c49faeda25c9ab51
   end
 
   def new
@@ -41,11 +46,15 @@ class ListingsController < ApplicationController
       :description,
       :name,
       :user_id,
+<<<<<<< HEAD
       :main_image,
       :city,
       :street,
       :number,
       :location_id
+=======
+      :location
+>>>>>>> 303b57dff4aa14862615d033c49faeda25c9ab51
     )
   end
 end

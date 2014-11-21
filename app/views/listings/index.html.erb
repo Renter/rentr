@@ -1,9 +1,52 @@
+<<<<<<< HEAD
 <b>Listings</b>
-<div>
-  <% @listings.each do |rental| %>
 
-    <%= image_tag rental.main_image.url(:thumb) %>
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>RENTR</title>
+      <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= csrf_meta_tags %>
+   </head>
+   <body>
+      <div class="container">
 
-    <%= link_to rental.name, listing_path(rental) %>
-  <%end%>
-</div>
+        <div class="listings-form">
+          <%=form_for @listing do |f|%>
+
+          <%=f.text_field :name, placeholder: "Rental Name"%>
+          <%=f.text_field :location, placeholder: "Location"%>
+          <%=f.text_field :description, placeholder: "Rental Description"%>
+          <%=f.text_field :image_url, placeholder: "Add Photos"%>
+          <div class="listings-button"><%=f.submit%></div>
+          <%end%>
+        </div>
+
+
+          <%@listings.each do |rental|%>
+          <div class="listings-list">
+            <div>
+              <%=link_to listing_path(rental) do
+              image_tag(rental.main_image.url)
+              end %>
+            </div>
+            <div class="listings-rental-name">
+              <%=link_to rental.name, listing_path(rental)%>
+            </div>
+            <div class="listings-rental-location">
+              <%=rental.location%>
+            </div>
+            <div class="listings-rental-description">
+              <%=rental.description%>
+            </div>
+          </div>
+        <%end%>
+      </body>
+    </div>
+  </html>
+
+>>>>>>> 303b57dff4aa14862615d033c49faeda25c9ab51
