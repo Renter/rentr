@@ -31,13 +31,13 @@ class Listing < ActiveRecord::Base
     end
   end
 
+  def location_names
+    Location.names
+  end
+
   private
 
   def find_location(city_name)
     @location = Location.find_by(name: city_name.downcase)
-  end
-
-  def location_names
-    Location.names
   end
 end
