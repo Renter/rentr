@@ -9,6 +9,9 @@ class ListingsController < ApplicationController
 
   def create
     @listing = Listing.new(listing_params)
+
+    @listing.assign_location_id
+    
     if @listing.save
       redirect_to @listing
     else
@@ -29,6 +32,10 @@ class ListingsController < ApplicationController
 
   private
 
+  def find_location(city_name)
+    Location.find_by(name: city_name.downcase)
+  end
+
   def listing_params
     params.require(:listing).permit(
       :description,
@@ -37,7 +44,8 @@ class ListingsController < ApplicationController
       :main_image,
       :city,
       :street,
-      :number
+      :number,
+      :location_id
     )
   end
 end
