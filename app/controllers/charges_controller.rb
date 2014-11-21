@@ -6,7 +6,11 @@ class ChargesController < ApplicationController
   @amount = 500
 
   customer = Stripe::Customer.create(
+<<<<<<< HEAD
     :email => @email,
+=======
+    :email => 'example@stripe.com',
+>>>>>>> bf4de282d128bddbb56b3b7be176f63df9010fe4
     :card  => params[:stripeToken]
   )
 

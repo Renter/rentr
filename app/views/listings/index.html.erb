@@ -1,7 +1,9 @@
 <b>Listings</b>
 <div>
   <% @listings.each do |rental| %>
+
   <%= image_tag rental.main_image.url(:thumb) %>
   <%= link_to rental.name, listing_path(rental) %>
+
   <%end%>
 </div>

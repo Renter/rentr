@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   resources :searches, only: [:index]
   resources :maps, only: [:show]
   resources :charges
+
   resources :listings, only: [:new, :create, :index, :show, :destroy] do
     resources :date_ranges, only: [:new, :create]
   end
