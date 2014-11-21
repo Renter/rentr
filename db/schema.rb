@@ -26,28 +26,14 @@ ActiveRecord::Schema.define(version: 20141120154921) do
 
   add_index "date_ranges", ["listing_id"], name: "index_date_ranges_on_listing_id", using: :btree
 
-  create_table "images", force: true do |t|
-    t.string   "name"
-    t.string   "image_url"
-    t.boolean  "is_main"
-    t.integer  "listing_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "listings", force: true do |t|
-    t.string   "name"
-    t.string   "description"
+    t.string   "name",                    null: false
+    t.string   "description",             null: false
     t.integer  "user_id"
-    t.integer  "location_id"
-    t.string   "city"
-    t.string   "street"
-    t.string   "number"
+    t.string   "image_url"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "full_street_address"
-    t.float    "latitude"
-    t.float    "longitude"
+    t.string   "location_id"
     t.string   "main_image_file_name"
     t.string   "main_image_content_type"
     t.integer  "main_image_file_size"
@@ -60,8 +46,6 @@ ActiveRecord::Schema.define(version: 20141120154921) do
     t.string   "state"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.float    "latitude"
-    t.float    "longitude"
   end
 
   create_table "users", force: true do |t|
